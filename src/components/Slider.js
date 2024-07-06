@@ -14,8 +14,8 @@ const Slider = () => {
                                     <h1 data-animation="fadeInUp" data-delay=".4s">Build everything you needs<span>.</span></h1>
                                     <p data-animation="fadeInUp" data-delay=".6s">Rorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inciidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
                                     <div className="slider-btn">
-                                        <a data-animation="fadeInLeft" data-delay=".6s" className="thm-btn" href="#">Contact us</a>
-                                        <a data-animation="fadeInRight" data-delay=".6s" className="thm-btn border-btn" href="#">Free Quote</a>
+                                        <a data-animation="fadeInLeft" data-delay=".6s" className="thm-btn" href="/">Contact us</a>
+                                        <a data-animation="fadeInRight" data-delay=".6s" className="thm-btn border-btn" href="/">Free Quote</a>
                                     </div>
                                 </div>
                             </div>
@@ -31,8 +31,8 @@ const Slider = () => {
                                     <h1 data-animation="fadeInUp" data-delay=".4s">Build everything you needs<span>.</span></h1>
                                     <p data-animation="fadeInUp" data-delay=".6s">Rorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inciidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
                                     <div className="slider-btn">
-                                        <a data-animation="fadeInLeft" data-delay=".6s" className="thm-btn" href="#">Contact us</a>
-                                        <a data-animation="fadeInRight" data-delay=".6s" className="thm-btn border-btn" href="#">Free Quote</a>
+                                        <a data-animation="fadeInLeft" data-delay=".6s" className="thm-btn" href="/">Contact us</a>
+                                        <a data-animation="fadeInRight" data-delay=".6s" className="thm-btn border-btn" href="/">Free Quote</a>
                                     </div>
                                 </div>
                             </div>

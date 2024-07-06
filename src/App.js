@@ -14,6 +14,7 @@ import Header from './components/common/Header';
 import Footer from './components/common/Footer';
 import { Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
+import About from './pages/About';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Header/>
         <Routes>
           <Route path='/' element={<Home/>}/>
+          <Route path='/about' element={<About/>}/>
         </Routes>
       <Footer/>
     </div>

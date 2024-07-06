@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '../../assets/img/logo/logo.png';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
@@ -30,7 +31,7 @@ const Header = () => {
                     <div className="row align-items-center">
                         <div className="col-xl-2 col-lg-2">
                             <div className="logo logo-2">
-                                <a href="index.html"><img src={logo} alt="logo_not_found"/></a>
+                                <Link to="/"><img src={logo} alt="logo_not_found"/></Link>
                             </div>
                         </div>
                         <div className="col-xl-10 col-lg-10">
@@ -40,13 +41,10 @@ const Header = () => {
                             <div className="main-menu f-right">
                                 <nav id="mobile-menu">
                                     <ul>
-                                        <li><a href="index.html">Home +</a>
-                                            <ul className="submenu">
-                                                <li><a href="index.html">Home Style 1</a></li>
-                                                <li><a href="index-2.html">Home Style 2</a></li>
-                                            </ul>
+                                        <li>
+                                            <Link to="/">Home</Link>                                            
                                         </li>
-                                        <li><a href="about.html">About</a></li>
+                                        <li><Link to="/about">About</Link></li>
                                         <li><a href="services.html">Services +</a>
                                             <ul className="submenu">
                                                 <li><a href="services.html">Service</a></li>
